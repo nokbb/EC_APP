@@ -8,12 +8,14 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import header from './components/owner/header.vue'
 
 export default {
   name: 'App',
 
   components: {
     HelloWorld,
+    header,
   },
 
   data: () => ({
